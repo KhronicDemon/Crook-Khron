@@ -46,7 +46,7 @@
 
 
 #region Damage Player
-get_damaged(obj_damagePlayer);
+get_damaged(obj_zombie_rabbit);
 #endregion
 
 

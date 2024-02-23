@@ -5,7 +5,7 @@
 	x += xspd;
 	y += yspd;
 	
-	if hitConfirm = true && enemyDestroy == true {
+	if hitConfirm = true /*&& enemyDestroy == true*/ {
 		destory = true;
 	}
 	

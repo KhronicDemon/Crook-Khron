@@ -12,10 +12,7 @@
     "name": "Items",
     "path": "folders/Items.yy",
   },
-  "parentObjectId": {
-    "name": "obj_damageEnemy",
-    "path": "objects/obj_damageEnemy/obj_damageEnemy.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

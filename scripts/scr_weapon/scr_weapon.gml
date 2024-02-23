@@ -24,10 +24,10 @@ function get_damaged_cleanup() {
 }
 	
 	function get_damaged( _damageObj ) {
-		if place_meeting( x, y, obj_damageEnemy )
+		if place_meeting( x, y, obj_zombie_rabbit )
 		{
 			var _instList = ds_list_create();	
-			instance_place_list(x, y, obj_damageEnemy, _instList, false );
+			instance_place_list(x, y, obj_zombie_rabbit, _instList, false );
 	
 			var _listSize = ds_list_size( _instList );
 	

@@ -11,3 +11,4 @@ event_inherited();
 	dirFix			=		false;
 	enemyDestroy	=		true;
 	destory			=		false;
+	hitConfirm = false;
