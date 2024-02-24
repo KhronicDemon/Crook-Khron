@@ -18,11 +18,10 @@ function get_damaged_create( _hp = 10 ) {
 	damageList  =	ds_list_create();
 }
 
-
+/*
 function get_damaged_cleanup() {
 	ds_list_destroy(  damageList  )
 }
-	
 	function get_damaged( _damageObj ) {
 		if place_meeting( x, y, obj_zombie_rabbit )
 		{
@@ -37,7 +36,7 @@ function get_damaged_cleanup() {
 		var _inst = ds_list_find_value( _instList, i );	
 		if ds_list_find_index( damageList, _inst ) = -1 
 			{			
-				hp -= _inst.damage;
+				global.hp -= _inst.damage;
 				_inst.hitConfirm = true;
 			}
 		}	

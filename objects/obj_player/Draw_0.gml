@@ -13,4 +13,4 @@
 	
 	}
 	
-	draw_text(x, y,"HP:" + string(hp));
+	draw_text(x, y,"HP:" + string(global.hp));

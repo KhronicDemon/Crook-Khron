@@ -1,1 +1,1 @@
-if(!other.dead) game_restart();
+if(!other.dead){ global.hp -= 1};

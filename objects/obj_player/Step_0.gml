@@ -46,7 +46,12 @@
 
 
 #region Damage Player
+	if global.hp == 0 {
+	game_restart()
+	}
+/*
 get_damaged(obj_zombie_rabbit);
+*/
 #endregion
 
 

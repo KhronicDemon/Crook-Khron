@@ -1,1 +1,1 @@
-get_damaged_cleanup();
+//get_damaged_cleanup();

@@ -1,10 +1,10 @@
-	
-	get_damaged_create(100);
-	
-	moveDir = 0;
-	moveSpd = 1;
-	xspd = 0;
-	yspd = 0;
+	global.hp = 100;
+	get_damaged_create(global.hp); // number of HP for Player
+
+	moveDir = 0; // direction
+	moveSpd = 1; // speed
+	xspd = 0; // up - down [speed]
+	yspd = 0; // left - right [speed]
 
 
 

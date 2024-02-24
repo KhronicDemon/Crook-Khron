@@ -5,9 +5,10 @@
 	x += xspd;
 	y += yspd;
 	
-	if hitConfirm = true /*&& enemyDestroy == true*/ {
-		destory = true;
+	if hitConfirm = true  {
+		destory = true
 	}
+	
 	
 	
 	if destory == true { instance_destroy(); }
